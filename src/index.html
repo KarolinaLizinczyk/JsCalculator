@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/calculator.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/calculator.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<h1><center>Calculator</center></h1>
+    <div class="my_container">
+        <input type="text" name="output" id="output" value="0">
+        <div class="rows">
+        <div style="width: 330px; margin-left: 22px">
+        <input type="button" name="del" class="md_button" onclick="clear_output()" value="del">
+        <input type="button" id="oper_modulus" name="modulus" class="button" value="%">
+        <input type="button" name="plus" id="oper_plus" class="button" value="+">
+        </div>
+        <div style="width: 330px; margin-left: 22px">
+            <input type="button" id="num_seven" class="sm_button"  value="7">
+            <input type="button" id="num_eight" class="sm_button"  value="8">
+            <input type="button" id="num_nine" class="sm_button"  value="9">
+            <input type="button" id="oper_minus" class="sm_button"  value="-">
+        </div>
+        <div style="width: 330px; margin-left: 20px">
+            <input type="button" id="num_four" class="sm_button"  value="4">
+            <input type="button" id="num_five" class="sm_button"  value="5">
+            <input type="button" id="num_six" class="sm_button"  value="6">
+            <input type="button" id="oper_multiply" name="multiply" class="sm_button"  value="*">
+        </div>
+        <div style="width: 330px; margin-left: 20px">
+            <input type="button" id="num_one" name="one" class="sm_button"  value="1">
+            <input type="button" id="num_two" class="sm_button"  value="2">
+            <input type="button" id="num_three" class="sm_button"  value="3">
+            <input type="button" id="oper_divide" name="divide" class="sm_button"  value="/">
+        </div>
+        <div style="width: 330px; margin-left: 22px">
+        <input type="button" id="num_zero" class="button"  value="0">
+        <input type="button" id="backspace" name="backspace" class="button"  value="<--">
+        <input type="button" id="dot" class="button"  value=".">
+        <input type="button" id="oper_equal" class="button"  value="=">
+        </div>
+    </div>
+</body>
+</html>
